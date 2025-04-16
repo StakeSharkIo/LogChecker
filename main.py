@@ -55,5 +55,6 @@ for date in dates:
 with open("result.json", "w") as f:
     f.write(json.dumps({
         "good": good,
-        "bad": bad
+        "bad": bad,
+        "files": files
     }))
